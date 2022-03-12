@@ -7,6 +7,11 @@ html {
   margin: 0;
 }
 
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -44,7 +49,7 @@ html {
 }
 
 .header--courses--toggler {
-  background-color: aqua;
+  background-color: rgb(235, 235, 235);
   position: absolute;
   right: 9rem;
   top: 5rem;
@@ -81,10 +86,15 @@ html {
   .header--options--show {
     display: block;
     text-align: center;
+    max-height: 100vh;
+    transition: all 0.5s;
+    opacity: 1;
   }
 
   .header--options--hide {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
   }
 
   .header {
@@ -101,4 +111,50 @@ html {
     display: flex;
     justify-content: space-between;
   }
+
+  .nav-bar--menu {
+    margin-bottom: 1rem;
+  }
+}
+
+.nav-bar--menu:hover {
+  color: #78ffd6;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.nav-bar--menu {
+  font-size: 1.3rem;
+}
+
+.course--heading {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.course--block {
+  width: 8rem;
+  height: 8rem;
+  background-color: #78ffd6;
+  border-radius: 0.5rem;
+  padding: 4rem;
+}
+
+.courses--container {
+  display: flex;
+  gap: 2rem;
+  height: fit-content;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.body--main {
+  padding: 2rem;
+}
+
+.course--block p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 2rem;
 }

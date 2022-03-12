@@ -4,6 +4,7 @@ import React from "react";
 import Item from "./Item";
 
 function Header() {
+  const style = document.querySelector(".toggle--image").style.display;
   const [display, setDisplay] = React.useState(false);
   function changeDisplay() {
     setDisplay((prevmode) => !prevmode);
@@ -36,9 +37,15 @@ function Header() {
       </div>
       <div>
         <ul className={`header--options--${disWord}`}>
-          <li onClick={changeDisplay}>Courses</li>
-          <li>About us</li>
-          <li>Contact us</li>
+          <li onClick={changeDisplay} className="nav-bar--menu">
+            <p>Courses</p>
+          </li>
+          <li className="nav-bar--menu">
+            <p>About us</p>
+          </li>
+          <li className="nav-bar--menu">
+            <p>Contact us</p>
+          </li>
         </ul>
       </div>
       <div className={`header--courses--toggler ${word}`}>
