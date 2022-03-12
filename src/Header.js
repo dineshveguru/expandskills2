@@ -4,7 +4,6 @@ import React from "react";
 import Item from "./Item";
 
 function Header() {
-  const style = document.querySelector(".toggle--image").style.display;
   const [display, setDisplay] = React.useState(false);
   function changeDisplay() {
     setDisplay((prevmode) => !prevmode);
