@@ -4,7 +4,7 @@ import React from "react";
 import Item from "./Item";
 
 function Header() {
-  const [display, setDisplay] = React.useState(true);
+  const [display, setDisplay] = React.useState(false);
   function changeDisplay() {
     setDisplay((prevmode) => !prevmode);
   }
