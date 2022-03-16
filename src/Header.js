@@ -25,7 +25,7 @@ function Header() {
   return (
     <header className="header">
       <div className="toggle--menu">
-        <a href="./index.html">
+        <a href="#">
           <h1>Expand Skills</h1>
         </a>
         <img

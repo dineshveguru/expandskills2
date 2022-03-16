@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%;
+}
+
+.button--link {
+  padding: 15px;
+}
+
+.header--block {
+  background: url(./images/wallpaper.jpg);
+  background-position: top;
+  background-size: cover;
+  align-items: center;
+  padding: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--block h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  margin-right: 1.5rem;
+}
+
+.toggle--image {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .toggle--image {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+}
+
+.header--link {
+  text-decoration: none;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 0.7rem;
+  padding: 0.9rem;
+  text-align: center;
+}
+
+.header--link--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header--link--container a {
+  margin-bottom: 1rem;
+}
+
+.header--link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: color 0.6ms;
+}
