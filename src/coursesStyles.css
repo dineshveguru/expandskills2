@@ -2,17 +2,22 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  transition: all 0.3s;
+}
+
 .button--link {
   padding: 15px;
 }
 
 .header--block {
   background: url(./images/wallpaper.jpg);
-  background-position: top;
+  background-position: center;
   background-size: cover;
   align-items: center;
   padding: 8rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -44,18 +49,80 @@ html {
   border-radius: 0.7rem;
   padding: 0.9rem;
   text-align: center;
-  transition: color 0.6s;
+  transition: all 0.3s;
 }
 
 .header--link--container {
   display: flex;
-  flex-direction: column;
+  margin-top: 1.5rem;
 }
 
 .header--link--container a {
   margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 
 .header--link:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #000;
+  transform: scale(110%);
+}
+
+.course--container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  position: relative;
+}
+
+.nav-link--container {
+  border: 1px solid rgba(30, 144, 255, 0.7);
+  padding: 1rem;
+  margin-bottom: 0.3rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  transition: all 0.1s;
+}
+
+.nav-link--container:hover {
+  background-color: rgba(30, 144, 255, 0.5);
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.nav-link--container:active {
+  background-color: rgba(30, 144, 255, 0.5);
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.nav-items {
+  padding: 1rem;
+}
+
+.course-topics-link {
+  display: none;
+}
+
+.header--button {
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .course-topics-link {
+    display: block;
+  }
+
+  .test {
+    position: absolute;
+    left: -25rem;
+  }
+
+  .nav-bar--position {
+    position: absolute;
+    left: 0;
+  }
 }
