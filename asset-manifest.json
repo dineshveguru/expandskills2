@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/expandskills2/static/css/main.b351f51b.css",
-    "main.js": "/expandskills2/static/js/main.51e2e09c.js",
+    "main.css": "/expandskills2/static/css/main.bb06558a.css",
+    "main.js": "/expandskills2/static/js/main.0948a6b1.js",
     "static/js/787.f8317c56.chunk.js": "/expandskills2/static/js/787.f8317c56.chunk.js",
+    "static/media/wallpaper.jpg": "/expandskills2/static/media/wallpaper.ffc60a690d6148724cc0.jpg",
+    "static/media/c.png": "/expandskills2/static/media/c.c0da8156a8d17281c29e.png",
+    "static/media/python.png": "/expandskills2/static/media/python.f1a07429fcf04073a41e.png",
+    "static/media/coding.png": "/expandskills2/static/media/coding.12469f3ed517d6d03c8a.png",
     "index.html": "/expandskills2/index.html",
-    "main.b351f51b.css.map": "/expandskills2/static/css/main.b351f51b.css.map",
-    "main.51e2e09c.js.map": "/expandskills2/static/js/main.51e2e09c.js.map",
+    "main.bb06558a.css.map": "/expandskills2/static/css/main.bb06558a.css.map",
+    "main.0948a6b1.js.map": "/expandskills2/static/js/main.0948a6b1.js.map",
     "787.f8317c56.chunk.js.map": "/expandskills2/static/js/787.f8317c56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b351f51b.css",
-    "static/js/main.51e2e09c.js"
+    "static/css/main.bb06558a.css",
+    "static/js/main.0948a6b1.js"
   ]
 }
