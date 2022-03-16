@@ -12,9 +12,16 @@ export default [
   {
     courseid: 3,
     CourseName: "Web Development",
+    img: "coding.png",
   },
   {
     courseid: 4,
     CourseName: "Artificial Intelligence",
+    img: "coding.png",
+  },
+  {
+    courseid: 5,
+    CourseName: "Machine Learning",
+    img: "coding.png",
   },
 ];

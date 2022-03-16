@@ -1,12 +1,19 @@
 import "./styles.css";
 import Data from "./CoursesData";
+import { Link } from "react-router-dom";
 
 function Body() {
   const blocks = Data.map((item) => {
     return (
-      <div className="course--block">
-        <p>{item.CourseName}</p>
-      </div>
+      <Link to={`/${item.CourseName}`}>
+        <div className="course--block">
+          <p>{item.CourseName}</p>
+          <img
+            src={require(`./images/${item.img}`)}
+            className="course--image"
+          />
+        </div>
+      </Link>
     );
   });
   return (
