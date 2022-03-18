@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import Header from "../Header";
 import "../coursesStyles.css";
 import CCoursesData from "./CCoursesData";
-import C_1 from "./1";
-import C_2 from "./2";
 import C_topics from "./C_topics";
 import TopicLink from "../CourseTopicButton";
 
@@ -52,22 +50,17 @@ function C() {
       <div class="header--block">
         <h1>C language</h1>
         <div className="header--link--container">
-          {/* <a
-            href="#"
-            className="header--link course-topics-link"
-            onClick={console.log("running")}
-          >
-            Course topics
-          </a> */}
-          <button
-            className="header--link course-topics-link header--button"
+          <div
+            className="header--link course-topics-link header--div"
             onClick={changePosition}
           >
             Course Topics
-          </button>
-          <Link to="/expandskills2" className="header--link">
-            Home
-          </Link>
+          </div>
+          <div>
+            <Link to="/expandskills2" className="header--link">
+              Home
+            </Link>
+          </div>
         </div>
       </div>
       <div className="course--container">
@@ -76,20 +69,22 @@ function C() {
         </div>
         <div className="content--container">
           <div>{page}</div>
-          <button
-            onClick={changeNext}
-            disabled={next + 1 == C_topics.length ? true : false}
-            className="button--link"
-          >
-            next
-          </button>
-          <button
-            onClick={changePrev}
-            disabled={next == 0 ? true : false}
-            className="button--link"
-          >
-            previous
-          </button>
+          <div className="content-button--container">
+            <button
+              onClick={changeNext}
+              disabled={next + 1 == C_topics.length ? true : false}
+              className="button--link"
+            >
+              next
+            </button>
+            <button
+              onClick={changePrev}
+              disabled={next == 0 ? true : false}
+              className="button--link"
+            >
+              previous
+            </button>
+          </div>
         </div>
       </div>
     </div>

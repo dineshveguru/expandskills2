@@ -4,10 +4,30 @@ html {
 
 body {
   transition: all 0.3s;
+  font-family: "PT Sans", sans-serif;
 }
 
 .button--link {
   padding: 15px;
+  border-radius: 1rem;
+  border: 0;
+  background-color: rgba(30, 144, 255, 0.7);
+  width: 10rem;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.3s all;
+}
+
+.button--link:disabled {
+  background-color: rgba(30, 144, 255, 0.3);
+}
+
+.button--link:hover {
+  transform: scale(110%);
+}
+
+.button--link:disabled:hover {
+  transform: scale(100%);
 }
 
 .header--block {
@@ -50,11 +70,14 @@ body {
   padding: 0.9rem;
   text-align: center;
   transition: all 0.3s;
+  margin-left: 1rem;
 }
 
 .header--link--container {
   display: flex;
   margin-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .header--link--container a {
@@ -161,4 +184,9 @@ body {
 
 .extra-space {
   margin-top: 1rem;
+}
+
+.content-button--container {
+  display: flex;
+  justify-content: space-between;
 }
