@@ -29,7 +29,7 @@ function Header() {
           <h1>Expand Skills</h1>
         </a>
         <img
-          src={require("./images/toggle.png")}
+          src={require("./images/toggle.webp")}
           className="toggle--image"
           onClick={changeToggle}
         />

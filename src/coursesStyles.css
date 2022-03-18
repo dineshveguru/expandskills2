@@ -24,6 +24,7 @@ body {
 
 .button--link:hover {
   transform: scale(110%);
+  cursor: pointer;
 }
 
 .button--link:disabled:hover {
@@ -31,7 +32,7 @@ body {
 }
 
 .header--block {
-  background: url(./images/wallpaper.jpg);
+  background: url(./images/wallpaper.webp);
   background-position: center;
   background-size: cover;
   align-items: center;
@@ -175,7 +176,7 @@ body {
 }
 
 .content p {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .content {
@@ -189,4 +190,17 @@ body {
 .content-button--container {
   display: flex;
   justify-content: space-between;
+}
+
+pre {
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+
+.list--items {
+  margin-left: 3rem;
+}
+
+.list--items li::marker {
+  font-size: 1.5rem;
 }

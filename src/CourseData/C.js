@@ -71,18 +71,18 @@ function C() {
           <div>{page}</div>
           <div className="content-button--container">
             <button
-              onClick={changeNext}
-              disabled={next + 1 == C_topics.length ? true : false}
-              className="button--link"
-            >
-              next
-            </button>
-            <button
               onClick={changePrev}
               disabled={next == 0 ? true : false}
               className="button--link"
             >
               previous
+            </button>
+            <button
+              onClick={changeNext}
+              disabled={next + 1 == C_topics.length ? true : false}
+              className="button--link"
+            >
+              next
             </button>
           </div>
         </div>
