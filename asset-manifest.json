@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/expandskills2/static/css/main.01f27fdc.css",
-    "main.js": "/expandskills2/static/js/main.6707169b.js",
+    "main.css": "/expandskills2/static/css/main.2f5c6a0a.css",
+    "main.js": "/expandskills2/static/js/main.c786cb1b.js",
     "static/js/787.f8317c56.chunk.js": "/expandskills2/static/js/787.f8317c56.chunk.js",
-    "static/media/wallpaper.jpg": "/expandskills2/static/media/wallpaper.ffc60a690d6148724cc0.jpg",
-    "static/media/c.png": "/expandskills2/static/media/c.c0da8156a8d17281c29e.png",
-    "static/media/python.png": "/expandskills2/static/media/python.f1a07429fcf04073a41e.png",
-    "static/media/coding.png": "/expandskills2/static/media/coding.12469f3ed517d6d03c8a.png",
+    "static/media/wallpaper.webp": "/expandskills2/static/media/wallpaper.3c46453277239e5f4e99.webp",
+    "static/media/c.webp": "/expandskills2/static/media/c.f6350b940cc821113ef7.webp",
+    "static/media/coding.webp": "/expandskills2/static/media/coding.bdd0a15cd319b467d88e.webp",
+    "static/media/python.webp": "/expandskills2/static/media/python.b5333a658e40720a8466.webp",
     "index.html": "/expandskills2/index.html",
-    "main.01f27fdc.css.map": "/expandskills2/static/css/main.01f27fdc.css.map",
-    "main.6707169b.js.map": "/expandskills2/static/js/main.6707169b.js.map",
+    "static/media/toggle.webp": "/expandskills2/static/media/toggle.3404f4418d27088afdcc.webp",
+    "main.2f5c6a0a.css.map": "/expandskills2/static/css/main.2f5c6a0a.css.map",
+    "main.c786cb1b.js.map": "/expandskills2/static/js/main.c786cb1b.js.map",
     "787.f8317c56.chunk.js.map": "/expandskills2/static/js/787.f8317c56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01f27fdc.css",
-    "static/js/main.6707169b.js"
+    "static/css/main.2f5c6a0a.css",
+    "static/js/main.c786cb1b.js"
   ]
 }
