@@ -72,6 +72,8 @@ body {
   display: grid;
   grid-template-columns: 30% 70%;
   position: relative;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .nav-link--container {
@@ -87,6 +89,7 @@ body {
   background-color: rgba(30, 144, 255, 0.5);
   color: #fff;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 
 .nav-link--container:active {
@@ -97,6 +100,8 @@ body {
 
 .nav-items {
   padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
 }
 
 .course-topics-link {
@@ -119,10 +124,41 @@ body {
   .test {
     position: absolute;
     left: -25rem;
+    background-color: #eef6f0;
   }
 
   .nav-bar--position {
     position: absolute;
     left: 0;
+    background-color: #eef6f0;
   }
+
+  .course--container {
+    grid-template-columns: 100%;
+  }
+}
+
+.content--container {
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem 2rem;
+  /* margin-left: 1rem; */
+  height: max-content;
+}
+
+.content--heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.content p {
+  font-size: 1.5rem;
+}
+
+.content {
+  margin-bottom: 2rem;
+}
+
+.extra-space {
+  margin-top: 1rem;
 }

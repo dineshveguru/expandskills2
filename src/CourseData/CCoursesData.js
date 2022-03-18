@@ -1,11 +1,15 @@
+import C_1 from "./1";
+import C_2 from "./2";
 export default [
   {
     id: 1,
     title: "What is a program and why ?",
+    topic: <C_1 />,
   },
   {
     id: 2,
     title: "Simple C code",
+    topic: <C_2 />,
   },
   {
     id: 3,
