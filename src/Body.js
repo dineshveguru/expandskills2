@@ -7,7 +7,7 @@ function Body() {
     return (
       <Link to={`/${item.CourseName}`}>
         <div className="course--block">
-          <p>{item.CourseName}</p>
+          <h1>{item.CourseName}</h1>
           <img
             src={require(`./images/${item.img}`)}
             className="course--image"

@@ -4,10 +4,15 @@ import c from "react-syntax-highlighter/dist/esm/languages/prism/c";
 import { darcula } from "react-syntax-highlighter/dist/esm/styles/prism";
 function Simple() {
   SyntaxHighlighter.registerLanguage("c", c);
-  const code = `
-    #include <stdio.h>
-    int main()
-  `;
+  const code = `#include  <stdio.h>;
+int  main()
+{
+    int a =78;
+    int b=34;
+    int add=a+b;
+    printf("%d",c);
+    return add;
+}`;
   return (
     <div class="content" id="2">
       <h1 className="content--heading">

@@ -75,14 +75,14 @@ function C() {
               disabled={next == 0 ? true : false}
               className="button--link"
             >
-              previous
+              Previous
             </button>
             <button
               onClick={changeNext}
               disabled={next + 1 == C_topics.length ? true : false}
               className="button--link"
             >
-              next
+              Next
             </button>
           </div>
         </div>
